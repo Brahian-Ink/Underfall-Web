@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bytesized", sans-serif;
+    text-decoration: none;
+    
+}
+
+body{
+    background: black;
+    padding: 20px;
+}
+h1, label, span, p{
+    color: aliceblue;
+}
+a{
+    color: rgb(250, 161, 44);
+}
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.ctn-form{
+    width: 80%;
+    padding: 40px;
+    
+}
+.logo-form{
+    width: 60%;
+    height: 60%;
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
+.text-description{
+    font-size: 20px;
+    padding: 10%;
+}
+.title{
+    text-align: center; 
+    
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+input[type="submit"]{
+    width: 50%;
+    height: 40px;
+    margin-top: 60px;
+    color: black;
+    border: 0;
+    background: white;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+  
+}
+
+.text-footer{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+/*Lado derecho del form*/
+.ctn-text{
+    width: 100%;
+    padding: 40px;   
+
+}
+
+/*responsive*/
+ 
+@media screen and (max-width:800px){
+    .ctn-text{
+        display: none;
+    }
+    .ctn-form{
+        margin: auto; /*centrar form*/
+        width: 80%;
+    }
+}
+
+
+ 
