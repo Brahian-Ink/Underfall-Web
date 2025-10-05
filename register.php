@@ -11,7 +11,7 @@
     <div class="container-all">
         <div class="ctn-form">
             <img src="" alt="" class="logo">
-            <h1 class="title">INICIAR SESION</h1>
+            <h1 class="title">REGISTRARSE</h1>
             
             <form action="">
                 <label for="">EMAIL</label>
@@ -19,10 +19,10 @@
                 <label for="">CONTRASEÑA</label>
                 <input type="password">
 
-                <input type="submit" value="INICIAR">
+                <input type="submit" value="REGISTRARSE">
             </form>
 
-            <span class="text-footer">¿AUN NO TE HAS REGISTRADO? <a href="register.php">REGISTRATE</a></span>
+            <span class="text-footer">¿YA TE HAS REGISTRADO? <a href="index.php">INICIA SESION</a></span>
         </div>
        
         <div class="ctn-text">
