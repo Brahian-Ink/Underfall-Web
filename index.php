@@ -29,6 +29,18 @@
             <div class="capa">
                 <img class="logo-form" src="img/Logo-white.png" alt="">
                 <p class="text-description">REGISTRATE PARA RECIBIR MAS NOTIFICACIONES SOBRE EL DESARROLLO DE UNDERFALL</p>
+                <img src="Gif/run.gif" alt="" class="run-player">
+                <ul class="floor">
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                    <li><img src="img/floor.png" alt="" > </li>
+                </ul>
+                
             </div>
        </div>
 

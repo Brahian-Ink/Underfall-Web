@@ -56,6 +56,14 @@ label{
     
 }
 
+.capa{
+    padding: 2%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    
+}
+
 input[type="text"], input[type="password"]{
     width: 100%;
     height: 30px;
@@ -97,6 +105,44 @@ input[type="submit"]{
     padding: 40px;   
 
 }
+.run-player{
+    
+    width: 50px;
+    padding: 1%;
+    display: block;
+    margin: auto;
+    
+}
+
+.floor{
+      margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center; /* centra la fila */
+  align-items: center;
+  
+  flex-wrap: wrap;         /* que bajen a otra línea en pantallas chicas */
+
+    
+}
+.floor li{ margin: 0; }
+
+.floor img{
+  display: block;          /* evita espacio fantasma bajo la imagen */
+  height: 40px;           /* fijá una altura si querés tamaño uniforme... */
+  width: auto;             /* ...manteniendo proporción */
+ 
+}
+
+
+
+
+
+
+
+
+
 
 /*responsive*/
  
