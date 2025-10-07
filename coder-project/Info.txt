@@ -1,0 +1,17 @@
+Objetivo de Underfall - Pagina Web - CoderHouse Proyecto
+
+* Publico: fans indies 2D, Pixel art.
+* Tono: oscuro, sobrio, con acento dramático.
+* Paleta: blanco/negro + acento naranja (Underfall vibe).
+* Tipografía: Fuente Pixel Retro vibe.
+
+ESTRUCTURA BASE
+
+* Header/Nav (logo + links; nav simple)
+* Home (Regreso al iniciod de la pagina)
+* Game (Demo jugable de Underfall)
+* About (Breve info del autor de Underfall)
+* OST (Pestaña del Original Soundtrack de Underfall)
+* Galería (grid simple de 2–4 imágenes)
+* EN / ES (Esquina donde estara el traductor de la pagina)
+* Footer (redes, créditos)
