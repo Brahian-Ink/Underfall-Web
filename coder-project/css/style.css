@@ -1,0 +1,113 @@
+ @font-face{  /*Declaro mi Fuente pixelada de assets/font*/
+    font-family:'Pixel';
+    src: url(/assets/font/PrStart.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+body {
+  font-family: 'Pixel', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 50px;
+}
+
+.site-nav {
+  background: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+/* Menú */
+.menu-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-list a:hover {
+  color: orange;
+}
+
+/* Idioma */
+.lang-switch {
+  font-weight: solid;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  margin-right: 50px;
+}
+
+.lang-switch a {
+  color: white;
+  text-decoration: none;
+}
+
+.lang-switch a:hover {
+  color: orange;
+}
+
+/* Burger */
+.burger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.menu-toggle{
+    display: none;   /* ocultamos el checkbox */
+ }
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .burger {
+    display: block; /* muestra la hamburguesa */
+    margin-right: 40px;
+  }
+
+  .menu-list {
+    display: none; /* oculta el menú por defecto */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .menu-toggle:checked + .burger + .menu-list {
+    display: flex;
+  }
+ .menu-toggle{
+    display: none;   /* ocultamos el checkbox */
+ }
+  .lang-switch {
+    display: none; /* lo ocultamos en mobile */
+  }
+}
+
+main {
+  margin-top: 80px;
+}
