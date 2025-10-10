@@ -1,44 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/img/icon.png">
-    <title>Underfall</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="assets/img/icon.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Underfall</title>
 </head>
+
 <body>
-  <header>
-  <nav class="site-nav">
-    <!-- Logo -->
-    <a href="index.html" class="logo-link">
-      <img src="assets/img/Logo-white.png" alt="Underfall" class="logo">
-    </a>
-   <!-- Checkbox oculto para el menú -->
-    <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <!-- Icono burger -->
-    <label for="menu-toggle" class="burger">☰</label>
-    <!-- Menú -->
-    <ul class="menu-list" id="menu">
-      <li><a href="index.html">INICIO</a></li>
-      <li><a href="#">TRAILER</a></li>
-      <li><a href="pages/about.html">SOBRE</a></li>
-      <li><a href="pages/ost.html">SONIDO</a></li>
-      <li><a href="pages/gallery.html">GALERIA</a></li>
-    </ul>
-    <!-- Idioma -->
-    <div class="lang-switch">
-      <a href="index.html" class="lang active">ES</a> |
-      <a href="index_en.html" class="lang">EN</a>
+  <!--HEADER / NAV-->
+  <header id="top">
+    <nav class="site-nav">
+      <!-- Logo -->
+      <a href="index.html" class="logo-link">
+        <img src="assets/img/Logo-white.png" alt="UNDERFALL" class="logo" />
+      </a>
+
+      <!-- Toggle (checkbox) -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <!-- Icono burger -->
+      <label for="menu-toggle" class="burger" aria-label="ABRIR MENÚ">☰</label>
+      <ul class="menu-list" id="menu">
+        <li><a href="#top">INICIO</a></li>
+        <li><a href="#">TRAILER</a></li>
+        <li><a href="pages/about.html">SOBRE</a></li>
+        <li><a href="pages/ost.html">SONIDO</a></li>
+        <li><a href="pages/gallery.html">GALERÍA</a></li>
+      </ul>
+
+      <!-- Idioma -->
+      <div class="lang-switch">
+        <a href="index.html" class="lang active">ES</a> |
+        <a href="index_en.html" class="lang">EN</a>
+      </div>
+    </nav>
+  </header>
+
+  <!--PAREDES LATERALES-->
+  <div class="walls">
+    <div class="wall left"  style="background-image: url('assets/img/wall.png');"></div>
+    <div class="wall right" style="background-image: url('assets/img/wall2.png');"></div>
+  </div>
+
+  <!--CONTENIDO PRINCIPAL-->
+  <main class="well">
+    <!-- Panel inicial -->
+    <section class="st-panel">
+      <h2>TU CURIOSIDAD.</h2>
+      <div class="char-fall-wrap">
+        <img src="assets/gif/fall.gif" alt="FALLING" class="char-fall" />
+      </div>
+    </section>
+
+    <!-- Panel 1 (correr + suelo) -->
+    <section class="mid-panel1">
+      <h2>TE ATRAPÓ EN LAS PROFUNDIDADES DE LA CIUDAD.</h2>
+
+      <div class="char-run-wrap">
+        <img src="assets/gif/run.gif" alt="RUNNING" class="char-run" />
+        <img src="assets/img/drain.png" alt="DRAIN" class="drain" />
+
+        <div class="ctn-floor">
+          <img src="assets/gif/water.gif" alt="WATER" class="ground" />
+          <img src="assets/gif/water.gif" alt="WATER" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+          <img src="assets/gif/water.gif" alt="WATER" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png" alt="FLOOR" class="ground" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Panel 2 (idle + ratas + murciélagos + suelo/agua) -->
+    <section class="mid-panel2">
+      <h2>DEBERÁS SOBREVIVIR EN UN MUNDO OSCURO Y HOSTIL.</h2>
+
+      <div class="char-idle-wrap">
+        <img src="assets/gif/rat.gif"  alt="RAT"  class="rat" />
+        <img src="assets/gif/idle.gif" alt="IDLE" class="char-idle" />
+        <img src="assets/gif/bat.gif"  alt="BAT"  class="bat" />
+        <div class="ctn-floor-mid">
+          <img src="assets/img/floor.png"  alt="FLOOR" class="ground" />
+          <img src="assets/gif/water.gif"  alt="WATER" class="ground" />
+          <img src="assets/gif/water.gif"  alt="WATER" class="ground" />
+          <img src="assets/gif/water.gif"  alt="WATER" class="ground" />
+          <img src="assets/img/floor.png"  alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png"  alt="FLOOR" class="ground" />
+          <img src="assets/gif/water.gif"  alt="WATER" class="ground" />
+          <img src="assets/img/floor.png"  alt="FLOOR" class="ground" />
+          <img src="assets/img/floor.png"  alt="FLOOR" class="ground" />
+        </div>
+      </div>
+    </section>
+    <!-- Panel 3 -->
+    <section class="mid-panel3">
+      <h2>¿CREES QUE LOGRARÁS SALIR?</h2>
+      <p class="centered">
+        UN JOVEN CAE A LAS ALCANTARILLAS
+        Y CORRE SIN DESCANSO
+        BUSCANDO LA SALIDA EN EL LABERINTO DE SOMBRAS
+        SALTA, ESQUIVA Y SOBREVIVE.
+      </p>
+    </section>
+
+    <!-- Créditos -->
+    <section class="fn-panel">
+      <p>DESARROLLO, ARTE Y CONCEPTO</p>
+      <a href="#"><p>@BRAHIAN.ART</p></a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/img/Logo-white.png" alt="UNDERFALL" class="footer-logo" />
+      </div>
+      <nav class="footer-nav">
+        <a href="#top">VOLVER</a>
+        <a href="pages/about.html">SOBRE</a>
+        <a href="pages/ost.html">SONIDO</a>
+        <a href="pages/gallery.html">GALERÍA</a>
+      </nav>
+      <div class="footer-contact">
+        <p>CONTACTO: <a href="mailto:brahian.art@gmail.com">BRAHIAN.ART@GMAIL.COM</a></p>
+      </div>
     </div>
-  </nav>
-</header>
 
-<main>
-   
-</main>
-
+    <div class="footer-bottom">
+      <p>© <span id="year">2025</span> UNDERFALL — TODOS LOS DERECHOS RESERVADOS.</p>
+      <p>HECHO CON ♥ EN LAS PROFUNDIDADES</p>
+    </div>
+  </footer>
 </body>
-
-<footer></footer>
 </html>
